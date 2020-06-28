@@ -1,0 +1,136 @@
+/*! chota.css v0.7.1 | MIT License | github.com/jenil/chota */
+:root {
+  --color-primary: #2196f3;
+  --color-lightGrey: #d2d6dd;
+  --color-grey: #747681;
+  --color-darkGrey: #3f4144;
+  --color-error: #d43939;
+  --color-success: #28bd14;
+  --grid-maxWidth: 120rem;
+  --grid-gutter: 2rem;
+  --font-size: 1.6rem;
+  --font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  line-height: 1.6;
+  font-size: var(--font-size);
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif; /*fallback*/
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 0.35em 0 0.7em 0;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.75em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.25em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 0.85em;
+}
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+a:hover:not(.button) {
+  opacity: 0.75;
+}
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]),
+select,
+textarea,
+textarea[type="text"] {
+  font-family: inherit;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-lightGrey);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  display: block;
+  width: 100%;
+}
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]):not(:disabled):hover,
+select:hover,
+textarea:hover,
+textarea[type="text"]:hover {
+  border-color: var(--color-grey);
+}
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="color"]):not([type="button"]):not([type="reset"]):focus,
+select:focus,
+textarea:focus,
+textarea[type="text"]:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  -webkit-box-shadow: 0 0 1px var(--color-primary);
+          box-shadow: 0 0 1px var(--color-primary);
+}
+select {
+  -webkit-appearance: none;
+  background: #f3f3f6 no-repeat 100%;
+  background-size: 1ex;
+  background-origin: content-box;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='40' fill='%23555'><polygon points='0,0 60,0 30,40'/></svg>");
+}
+[type="checkbox"],
+[type="radio"] {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+input:disabled,
+button:disabled,
+input:disabled:hover,
+button:disabled:hover {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+::-webkit-input-placeholder {
+  color: #bdbfc4;
+}
+::-moz-placeholder {
+  color: #bdbfc4;
+}
+:-ms-input-placeholder {
+  color: #bdbfc4;
+}
+::-ms-input-placeholder {
+  color: #bdbfc4;
+}
+::placeholder {
+  color: #bdbfc4;
+}
+
+.titleHeader{width:100%;text-align:center;background-color:#e7f3fe;padding:3px; margin-top:10px; margin-bottom:10px; border:solid thin #ababab;}
+.subTitleHeader{width: 100%;text-align: center;background-color: #ffffcc;padding-top:3px; padding-bottom:3px;margin-top:20px;border:solid thin #ababab;}
+.o-active-tab{border-bottom: solid 3px #f44336!important;}
+.o-list-toggle{background:whitesmoke}
+
+ul > li{background:white; margin:3px;}
