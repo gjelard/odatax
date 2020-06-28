@@ -11,5 +11,5 @@ Almost all data are controlled from the back-end via JSON file format.
 
 Included is a simple user management framework written in PHP, upload to database, add your database information in the dbconnect.php file and login U:admin P:secret#99
 
-
+![](odatax.gif)
 
